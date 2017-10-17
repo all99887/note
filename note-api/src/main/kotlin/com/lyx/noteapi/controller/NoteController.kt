@@ -2,10 +2,9 @@ package com.lyx.noteapi.controller
 
 import com.lyx.noteapi.entity.po.Note
 import com.lyx.noteapi.service.INoteService
-import org.omg.CORBA.Object
-import org.springframework.data.domain.Page
-import org.springframework.stereotype.Controller
-import org.springframework.web.bind.annotation.*
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RequestMapping
+import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/note")
